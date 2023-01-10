@@ -77,7 +77,7 @@ game_on = True
 
 while game_on:
     window.update()
-    time.sleep(0.020)
+    time.sleep(0.010)
     ball.move()
 
     if paddle.xcor() < -280:

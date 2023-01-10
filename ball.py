@@ -13,8 +13,8 @@ class Ball(Turtle):
 
         self.lives = 3
         self.launched = False
-        self.speed_x = 10
-        self.speed_y = 10
+        self.speed_x = 5
+        self.speed_y = 5
 
     def launch(self):
         if not self.launched:
